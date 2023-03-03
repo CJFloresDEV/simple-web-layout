@@ -1,0 +1,8 @@
+/* VARIABLES STYLES */
+:root {
+	--default-font: 'Roboto', Arial, Helvetica, sans-serif;
+	--primary-color: #3882f6;
+	--inverted-color: #f9faf8;
+	--dark-color: #1f2937;
+	--gray-color: #e5e7eb;
+}

@@ -1,0 +1,53 @@
+/* BUTTON STYLES */
+.btn-holder {
+	display: flex;
+}
+
+.btn,
+.btn-inverted {
+	display: block;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: var(--primary-color);
+	transition: all 0.3s ease-in-out;
+}
+
+.btn {
+	color: var(--inverted-color);
+	background-color: var(--primary-color);
+}
+
+.btn:hover {
+	color: var(--primary-color);
+	background-color: var(--inverted-color);
+}
+
+.btn-inverted {
+	color: var(--primary-color);
+	background-color: var(--inverted-color);
+}
+
+.btn-inverted:hover {
+	color: var(--inverted-color);
+	background-color: var(--primary-color);
+}
+
+@media (min-width: 992px) {
+	.btn,
+	.btn-inverted {
+		padding-top: 10px;
+		padding-right: 30px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		font-weight: 700;
+		font-size: 18px;
+	}
+}

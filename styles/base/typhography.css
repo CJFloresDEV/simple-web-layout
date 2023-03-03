@@ -1,0 +1,110 @@
+/* TYPHOGRAPHY STYLES */
+h1 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+h2 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 34px;
+}
+
+h3 {
+	margin: 0;
+	font-weight: 700;
+	font-size: 28px;
+}
+
+h4 {
+	margin: 0;
+	font-family: 400;
+	font-size: 22px;
+}
+
+h5 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+h6 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+p {
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.extra-bold {
+	font-weight: 900;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.light {
+	font-weight: 300;
+}
+
+.italic {
+	font-style: italic;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 44px;
+	}
+
+	h2 {
+		font-size: 38px;
+	}
+
+	h3 {
+		font-size: 32px;
+	}
+
+	h4 {
+		font-size: 26px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 48px;
+	}
+
+	h2 {
+		font-size: 42px;
+	}
+
+	h3 {
+		font-size: 36px;
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
+	h5 {
+		font-size: 24px;
+	}
+
+	h6 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+}
